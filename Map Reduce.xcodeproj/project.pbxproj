@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C4A1C3C1DA68F8D00E7623C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4A1C3B1DA68F8D00E7623C /* AppDelegate.swift */; };
+		9C4A1C3E1DA68F8D00E7623C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4A1C3D1DA68F8D00E7623C /* ViewController.swift */; };
+		9C4A1C411DA68F8D00E7623C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A1C3F1DA68F8D00E7623C /* Main.storyboard */; };
+		9C4A1C431DA68F8D00E7623C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A1C421DA68F8D00E7623C /* Assets.xcassets */; };
+		9C4A1C461DA68F8D00E7623C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A1C441DA68F8D00E7623C /* LaunchScreen.storyboard */; };
+		9C4A1C511DA68F8D00E7623C /* Map_ReduceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4A1C501DA68F8D00E7623C /* Map_ReduceTests.swift */; };
+		9C4A1C5C1DA68F8D00E7623C /* Map_ReduceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4A1C5B1DA68F8D00E7623C /* Map_ReduceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C4A1C4D1DA68F8D00E7623C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C4A1C301DA68F8C00E7623C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4A1C371DA68F8C00E7623C;
+			remoteInfo = "Map Reduce";
+		};
+		9C4A1C581DA68F8D00E7623C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C4A1C301DA68F8C00E7623C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4A1C371DA68F8C00E7623C;
+			remoteInfo = "Map Reduce";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C4A1C381DA68F8D00E7623C /* Map Reduce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Map Reduce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4A1C3B1DA68F8D00E7623C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C4A1C3D1DA68F8D00E7623C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C4A1C401DA68F8D00E7623C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C4A1C421DA68F8D00E7623C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C4A1C451DA68F8D00E7623C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C4A1C471DA68F8D00E7623C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4A1C4C1DA68F8D00E7623C /* Map ReduceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map ReduceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4A1C501DA68F8D00E7623C /* Map_ReduceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_ReduceTests.swift; sourceTree = "<group>"; };
+		9C4A1C521DA68F8D00E7623C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4A1C571DA68F8D00E7623C /* Map ReduceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map ReduceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4A1C5B1DA68F8D00E7623C /* Map_ReduceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_ReduceUITests.swift; sourceTree = "<group>"; };
+		9C4A1C5D1DA68F8D00E7623C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C4A1C351DA68F8C00E7623C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4A1C491DA68F8D00E7623C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4A1C541DA68F8D00E7623C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C4A1C2F1DA68F8C00E7623C = {
+			isa = PBXGroup;
+			children = (
+				9C4A1C3A1DA68F8D00E7623C /* Map Reduce */,
+				9C4A1C4F1DA68F8D00E7623C /* Map ReduceTests */,
+				9C4A1C5A1DA68F8D00E7623C /* Map ReduceUITests */,
+				9C4A1C391DA68F8D00E7623C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C4A1C391DA68F8D00E7623C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C4A1C381DA68F8D00E7623C /* Map Reduce.app */,
+				9C4A1C4C1DA68F8D00E7623C /* Map ReduceTests.xctest */,
+				9C4A1C571DA68F8D00E7623C /* Map ReduceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C4A1C3A1DA68F8D00E7623C /* Map Reduce */ = {
+			isa = PBXGroup;
+			children = (
+				9C4A1C691DA6910D00E7623C /* Supporting files */,
+				9C4A1C3D1DA68F8D00E7623C /* ViewController.swift */,
+				9C4A1C3F1DA68F8D00E7623C /* Main.storyboard */,
+			);
+			path = "Map Reduce";
+			sourceTree = "<group>";
+		};
+		9C4A1C4F1DA68F8D00E7623C /* Map ReduceTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C4A1C501DA68F8D00E7623C /* Map_ReduceTests.swift */,
+				9C4A1C521DA68F8D00E7623C /* Info.plist */,
+			);
+			path = "Map ReduceTests";
+			sourceTree = "<group>";
+		};
+		9C4A1C5A1DA68F8D00E7623C /* Map ReduceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C4A1C5B1DA68F8D00E7623C /* Map_ReduceUITests.swift */,
+				9C4A1C5D1DA68F8D00E7623C /* Info.plist */,
+			);
+			path = "Map ReduceUITests";
+			sourceTree = "<group>";
+		};
+		9C4A1C691DA6910D00E7623C /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				9C4A1C3B1DA68F8D00E7623C /* AppDelegate.swift */,
+				9C4A1C421DA68F8D00E7623C /* Assets.xcassets */,
+				9C4A1C441DA68F8D00E7623C /* LaunchScreen.storyboard */,
+				9C4A1C471DA68F8D00E7623C /* Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C4A1C371DA68F8C00E7623C /* Map Reduce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4A1C601DA68F8D00E7623C /* Build configuration list for PBXNativeTarget "Map Reduce" */;
+			buildPhases = (
+				9C4A1C341DA68F8C00E7623C /* Sources */,
+				9C4A1C351DA68F8C00E7623C /* Frameworks */,
+				9C4A1C361DA68F8C00E7623C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Map Reduce";
+			productName = "Map Reduce";
+			productReference = 9C4A1C381DA68F8D00E7623C /* Map Reduce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C4A1C4B1DA68F8D00E7623C /* Map ReduceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4A1C631DA68F8D00E7623C /* Build configuration list for PBXNativeTarget "Map ReduceTests" */;
+			buildPhases = (
+				9C4A1C481DA68F8D00E7623C /* Sources */,
+				9C4A1C491DA68F8D00E7623C /* Frameworks */,
+				9C4A1C4A1DA68F8D00E7623C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C4A1C4E1DA68F8D00E7623C /* PBXTargetDependency */,
+			);
+			name = "Map ReduceTests";
+			productName = "Map ReduceTests";
+			productReference = 9C4A1C4C1DA68F8D00E7623C /* Map ReduceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C4A1C561DA68F8D00E7623C /* Map ReduceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4A1C661DA68F8D00E7623C /* Build configuration list for PBXNativeTarget "Map ReduceUITests" */;
+			buildPhases = (
+				9C4A1C531DA68F8D00E7623C /* Sources */,
+				9C4A1C541DA68F8D00E7623C /* Frameworks */,
+				9C4A1C551DA68F8D00E7623C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C4A1C591DA68F8D00E7623C /* PBXTargetDependency */,
+			);
+			name = "Map ReduceUITests";
+			productName = "Map ReduceUITests";
+			productReference = 9C4A1C571DA68F8D00E7623C /* Map ReduceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C4A1C301DA68F8C00E7623C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Lionel Grondin";
+				TargetAttributes = {
+					9C4A1C371DA68F8C00E7623C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FE7EJFVNR9;
+						ProvisioningStyle = Automatic;
+					};
+					9C4A1C4B1DA68F8D00E7623C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C4A1C371DA68F8C00E7623C;
+					};
+					9C4A1C561DA68F8D00E7623C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C4A1C371DA68F8C00E7623C;
+					};
+				};
+			};
+			buildConfigurationList = 9C4A1C331DA68F8C00E7623C /* Build configuration list for PBXProject "Map Reduce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C4A1C2F1DA68F8C00E7623C;
+			productRefGroup = 9C4A1C391DA68F8D00E7623C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C4A1C371DA68F8C00E7623C /* Map Reduce */,
+				9C4A1C4B1DA68F8D00E7623C /* Map ReduceTests */,
+				9C4A1C561DA68F8D00E7623C /* Map ReduceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C4A1C361DA68F8C00E7623C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4A1C461DA68F8D00E7623C /* LaunchScreen.storyboard in Resources */,
+				9C4A1C431DA68F8D00E7623C /* Assets.xcassets in Resources */,
+				9C4A1C411DA68F8D00E7623C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4A1C4A1DA68F8D00E7623C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4A1C551DA68F8D00E7623C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C4A1C341DA68F8C00E7623C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4A1C3E1DA68F8D00E7623C /* ViewController.swift in Sources */,
+				9C4A1C3C1DA68F8D00E7623C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4A1C481DA68F8D00E7623C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4A1C511DA68F8D00E7623C /* Map_ReduceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4A1C531DA68F8D00E7623C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4A1C5C1DA68F8D00E7623C /* Map_ReduceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C4A1C4E1DA68F8D00E7623C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C4A1C371DA68F8C00E7623C /* Map Reduce */;
+			targetProxy = 9C4A1C4D1DA68F8D00E7623C /* PBXContainerItemProxy */;
+		};
+		9C4A1C591DA68F8D00E7623C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C4A1C371DA68F8C00E7623C /* Map Reduce */;
+			targetProxy = 9C4A1C581DA68F8D00E7623C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C4A1C3F1DA68F8D00E7623C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C4A1C401DA68F8D00E7623C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C4A1C441DA68F8D00E7623C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C4A1C451DA68F8D00E7623C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C4A1C5E1DA68F8D00E7623C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C4A1C5F1DA68F8D00E7623C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C4A1C611DA68F8D00E7623C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FE7EJFVNR9;
+				INFOPLIST_FILE = "Map Reduce/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ece.Map-Reduce";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9C4A1C621DA68F8D00E7623C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FE7EJFVNR9;
+				INFOPLIST_FILE = "Map Reduce/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ece.Map-Reduce";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9C4A1C641DA68F8D00E7623C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Map ReduceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ece.Map-ReduceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map Reduce.app/Map Reduce";
+			};
+			name = Debug;
+		};
+		9C4A1C651DA68F8D00E7623C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Map ReduceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ece.Map-ReduceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map Reduce.app/Map Reduce";
+			};
+			name = Release;
+		};
+		9C4A1C671DA68F8D00E7623C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Map ReduceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ece.Map-ReduceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Map Reduce";
+			};
+			name = Debug;
+		};
+		9C4A1C681DA68F8D00E7623C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Map ReduceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ece.Map-ReduceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Map Reduce";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C4A1C331DA68F8C00E7623C /* Build configuration list for PBXProject "Map Reduce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4A1C5E1DA68F8D00E7623C /* Debug */,
+				9C4A1C5F1DA68F8D00E7623C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4A1C601DA68F8D00E7623C /* Build configuration list for PBXNativeTarget "Map Reduce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4A1C611DA68F8D00E7623C /* Debug */,
+				9C4A1C621DA68F8D00E7623C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C4A1C631DA68F8D00E7623C /* Build configuration list for PBXNativeTarget "Map ReduceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4A1C641DA68F8D00E7623C /* Debug */,
+				9C4A1C651DA68F8D00E7623C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C4A1C661DA68F8D00E7623C /* Build configuration list for PBXNativeTarget "Map ReduceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4A1C671DA68F8D00E7623C /* Debug */,
+				9C4A1C681DA68F8D00E7623C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C4A1C301DA68F8C00E7623C /* Project object */;
+}
